@@ -45,3 +45,19 @@ C:\Users\pc\Downloads\DoAn_LTCSDL-main\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVL
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\HeThongBanLeVLXD\obj\Debug\HeThongB.49F8C797.Up2Date
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.exe
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\HeThongBanLeVLXD.exe.config
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\HeThongBanLeVLXD.exe
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\HeThongBanLeVLXD.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\BUS.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\DTO.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\BUS.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\DTO.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.FrmGiaoDienChinh.resources
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.FrmLogin.resources
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.Properties.Resources.resources
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongB.49F8C797.Up2Date
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.exe
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.pdb

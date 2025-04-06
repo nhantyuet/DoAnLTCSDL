@@ -26,7 +26,7 @@ namespace HeThongBanLeVLXD
         {
             DataProvider dp = new DataProvider();
             roled = dp.CheckLogin(account);
-            if (roled != null)
+            if (roled == "ChuCuaHang" || roled == "NhanVienBanHang")
             {
                 return true;
             }
@@ -78,6 +78,12 @@ namespace HeThongBanLeVLXD
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            txtMatKhau.PasswordChar = checkBox1.Checked ? '\0':'*';
+            //test
         }
     }
 }

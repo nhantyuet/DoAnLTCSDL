@@ -33,10 +33,11 @@ namespace HeThongBanLeVLXD
                     pn_Chu.Visible = true;
                     label4.Text = Frmlogin.usernamed;
                 }
-                else
+                else if (Frmlogin.roled == "NhanVienBanHang")
                 {
                     pn_NV.Visible = true;
                     label6.Text = Frmlogin.usernamed;
+                    //test git
                 }    
                 //label4.Text = Frmlogin.usernamed;
                 //label5.Text = Frmlogin.roled;

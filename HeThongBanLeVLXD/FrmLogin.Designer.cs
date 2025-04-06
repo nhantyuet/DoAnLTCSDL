@@ -107,9 +107,9 @@
             this.txtMatKhau.Location = new System.Drawing.Point(207, 144);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(2);
             this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.PasswordChar = '*';
             this.txtMatKhau.Size = new System.Drawing.Size(250, 35);
             this.txtMatKhau.TabIndex = 2;
-            this.txtMatKhau.UseSystemPasswordChar = true;
             // 
             // panel2
             // 
@@ -182,6 +182,7 @@
             this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "Show Password";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // FrmLogin
             // 
