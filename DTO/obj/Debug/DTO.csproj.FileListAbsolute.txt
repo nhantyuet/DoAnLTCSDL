@@ -1,0 +1,12 @@
+D:\DTO\bin\Debug\DTO.dll
+D:\DTO\bin\Debug\DTO.pdb
+D:\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\DTO\obj\Debug\DTO.dll
+D:\DTO\obj\Debug\DTO.pdb
+C:\Users\pc\Downloads\DoAn_LTCSDL-main\DTO\bin\Debug\DTO.dll
+C:\Users\pc\Downloads\DoAn_LTCSDL-main\DTO\bin\Debug\DTO.pdb
+C:\Users\pc\Downloads\DoAn_LTCSDL-main\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\pc\Downloads\DoAn_LTCSDL-main\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\pc\Downloads\DoAn_LTCSDL-main\DTO\obj\Debug\DTO.dll
+C:\Users\pc\Downloads\DoAn_LTCSDL-main\DTO\obj\Debug\DTO.pdb
