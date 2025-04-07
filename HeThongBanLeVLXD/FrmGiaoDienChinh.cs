@@ -21,7 +21,7 @@ namespace HeThongBanLeVLXD
         private void FrmGiaoDienChinh_Load(object sender, EventArgs e)
         {
             this.Show();
-            this.Enabled = false;
+            this.Enabled = true;
             FrmLogin Frmlogin = new FrmLogin();
             DialogResult result = Frmlogin.ShowDialog();
 
@@ -38,7 +38,7 @@ namespace HeThongBanLeVLXD
                     pn_NV.Visible = true;
                     label6.Text = Frmlogin.usernamed;
                     //test git
-                }    
+                }
                 //label4.Text = Frmlogin.usernamed;
                 //label5.Text = Frmlogin.roled;
             }
@@ -46,6 +46,11 @@ namespace HeThongBanLeVLXD
             {
                 Application.Exit();
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

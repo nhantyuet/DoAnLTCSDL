@@ -28,240 +28,298 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGiaoDienChinh));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pn_Chu = new System.Windows.Forms.Panel();
+            this.btnInFile = new System.Windows.Forms.Button();
+            this.imlXuatFile = new System.Windows.Forms.ImageList(this.components);
+            this.btnBieuDoDT = new System.Windows.Forms.Button();
+            this.imlBieuDo = new System.Windows.Forms.ImageList(this.components);
+            this.btnQlyCongNoKH = new System.Windows.Forms.Button();
+            this.imlCongNoKhachHang = new System.Windows.Forms.ImageList(this.components);
+            this.btnQlyLichSu = new System.Windows.Forms.Button();
+            this.imlLichSuMuaBan = new System.Windows.Forms.ImageList(this.components);
+            this.btnQlyKho = new System.Windows.Forms.Button();
+            this.imlQuanLiKho = new System.Windows.Forms.ImageList(this.components);
+            this.btnQlySanPham = new System.Windows.Forms.Button();
+            this.imlDanhMucQuanLiSanPham = new System.Windows.Forms.ImageList(this.components);
+            this.btnQlyNguoiDung = new System.Windows.Forms.Button();
+            this.imlQuanLiNguoiDung = new System.Windows.Forms.ImageList(this.components);
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.pn_NV = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.pn_Chu.SuspendLayout();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txtRole = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtMaNV = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.pn_NV.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 96);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(166, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.Size = new System.Drawing.Size(118, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "UserName:";
+            this.label1.Text = "Người dùng:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(268, 96);
+            this.label2.Location = new System.Drawing.Point(357, 118);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.Size = new System.Drawing.Size(0, 16);
             this.label2.TabIndex = 1;
             // 
-            // label4
+            // btnInFile
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(76, 96);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "XXXX";
+            this.btnInFile.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInFile.ImageIndex = 0;
+            this.btnInFile.ImageList = this.imlXuatFile;
+            this.btnInFile.Location = new System.Drawing.Point(16, 695);
+            this.btnInFile.Margin = new System.Windows.Forms.Padding(4);
+            this.btnInFile.Name = "btnInFile";
+            this.btnInFile.Size = new System.Drawing.Size(160, 160);
+            this.btnInFile.TabIndex = 12;
+            this.btnInFile.Text = "Xuất danh sách hàng tồn kho ra file vật lý";
+            this.btnInFile.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnInFile.UseVisualStyleBackColor = true;
             // 
-            // pn_Chu
+            // imlXuatFile
             // 
-            this.pn_Chu.Controls.Add(this.button7);
-            this.pn_Chu.Controls.Add(this.button6);
-            this.pn_Chu.Controls.Add(this.button5);
-            this.pn_Chu.Controls.Add(this.button4);
-            this.pn_Chu.Controls.Add(this.button3);
-            this.pn_Chu.Controls.Add(this.button2);
-            this.pn_Chu.Controls.Add(this.button1);
-            this.pn_Chu.Controls.Add(this.pictureBox3);
-            this.pn_Chu.Controls.Add(this.label4);
-            this.pn_Chu.Controls.Add(this.label1);
-            this.pn_Chu.Location = new System.Drawing.Point(2, 0);
-            this.pn_Chu.Name = "pn_Chu";
-            this.pn_Chu.Size = new System.Drawing.Size(212, 578);
-            this.pn_Chu.TabIndex = 5;
-            this.pn_Chu.Visible = false;
+            this.imlXuatFile.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlXuatFile.ImageStream")));
+            this.imlXuatFile.TransparentColor = System.Drawing.Color.Transparent;
+            this.imlXuatFile.Images.SetKeyName(0, "printer.png");
+            // 
+            // btnBieuDoDT
+            // 
+            this.btnBieuDoDT.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBieuDoDT.ImageIndex = 0;
+            this.btnBieuDoDT.ImageList = this.imlBieuDo;
+            this.btnBieuDoDT.Location = new System.Drawing.Point(207, 471);
+            this.btnBieuDoDT.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBieuDoDT.Name = "btnBieuDoDT";
+            this.btnBieuDoDT.Size = new System.Drawing.Size(160, 160);
+            this.btnBieuDoDT.TabIndex = 11;
+            this.btnBieuDoDT.Text = "Hiển thị biểu đồ doanh thu";
+            this.btnBieuDoDT.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnBieuDoDT.UseVisualStyleBackColor = true;
+            // 
+            // imlBieuDo
+            // 
+            this.imlBieuDo.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlBieuDo.ImageStream")));
+            this.imlBieuDo.TransparentColor = System.Drawing.Color.Transparent;
+            this.imlBieuDo.Images.SetKeyName(0, "revenue.png");
+            // 
+            // btnQlyCongNoKH
+            // 
+            this.btnQlyCongNoKH.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQlyCongNoKH.ImageIndex = 0;
+            this.btnQlyCongNoKH.ImageList = this.imlCongNoKhachHang;
+            this.btnQlyCongNoKH.Location = new System.Drawing.Point(16, 471);
+            this.btnQlyCongNoKH.Margin = new System.Windows.Forms.Padding(4);
+            this.btnQlyCongNoKH.Name = "btnQlyCongNoKH";
+            this.btnQlyCongNoKH.Size = new System.Drawing.Size(160, 160);
+            this.btnQlyCongNoKH.TabIndex = 10;
+            this.btnQlyCongNoKH.Text = "Quản lý công nợ khách hàng \n\n";
+            this.btnQlyCongNoKH.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnQlyCongNoKH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnQlyCongNoKH.UseVisualStyleBackColor = true;
+            // 
+            // imlCongNoKhachHang
+            // 
+            this.imlCongNoKhachHang.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlCongNoKhachHang.ImageStream")));
+            this.imlCongNoKhachHang.TransparentColor = System.Drawing.Color.Transparent;
+            this.imlCongNoKhachHang.Images.SetKeyName(0, "borrow.png");
+            // 
+            // btnQlyLichSu
+            // 
+            this.btnQlyLichSu.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQlyLichSu.ImageIndex = 0;
+            this.btnQlyLichSu.ImageList = this.imlLichSuMuaBan;
+            this.btnQlyLichSu.Location = new System.Drawing.Point(207, 250);
+            this.btnQlyLichSu.Margin = new System.Windows.Forms.Padding(4);
+            this.btnQlyLichSu.Name = "btnQlyLichSu";
+            this.btnQlyLichSu.Size = new System.Drawing.Size(160, 160);
+            this.btnQlyLichSu.TabIndex = 9;
+            this.btnQlyLichSu.Text = "Quản lý lịch sử mua bán\n\n";
+            this.btnQlyLichSu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnQlyLichSu.UseVisualStyleBackColor = true;
+            // 
+            // imlLichSuMuaBan
+            // 
+            this.imlLichSuMuaBan.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlLichSuMuaBan.ImageStream")));
+            this.imlLichSuMuaBan.TransparentColor = System.Drawing.Color.Transparent;
+            this.imlLichSuMuaBan.Images.SetKeyName(0, "order-history.png");
+            // 
+            // btnQlyKho
+            // 
+            this.btnQlyKho.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQlyKho.ImageIndex = 0;
+            this.btnQlyKho.ImageList = this.imlQuanLiKho;
+            this.btnQlyKho.Location = new System.Drawing.Point(16, 250);
+            this.btnQlyKho.Margin = new System.Windows.Forms.Padding(4);
+            this.btnQlyKho.Name = "btnQlyKho";
+            this.btnQlyKho.Size = new System.Drawing.Size(160, 160);
+            this.btnQlyKho.TabIndex = 8;
+            this.btnQlyKho.Text = "Quản lý kho\n\n";
+            this.btnQlyKho.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnQlyKho.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnQlyKho.UseVisualStyleBackColor = true;
+            // 
+            // imlQuanLiKho
+            // 
+            this.imlQuanLiKho.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlQuanLiKho.ImageStream")));
+            this.imlQuanLiKho.TransparentColor = System.Drawing.Color.Transparent;
+            this.imlQuanLiKho.Images.SetKeyName(0, "inventory-management.png");
+            // 
+            // btnQlySanPham
+            // 
+            this.btnQlySanPham.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQlySanPham.ImageIndex = 0;
+            this.btnQlySanPham.ImageList = this.imlDanhMucQuanLiSanPham;
+            this.btnQlySanPham.Location = new System.Drawing.Point(207, 26);
+            this.btnQlySanPham.Margin = new System.Windows.Forms.Padding(4);
+            this.btnQlySanPham.Name = "btnQlySanPham";
+            this.btnQlySanPham.Size = new System.Drawing.Size(160, 160);
+            this.btnQlySanPham.TabIndex = 7;
+            this.btnQlySanPham.Text = "Quản lý danh mục sản phẩm";
+            this.btnQlySanPham.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnQlySanPham.UseVisualStyleBackColor = true;
+            // 
+            // imlDanhMucQuanLiSanPham
+            // 
+            this.imlDanhMucQuanLiSanPham.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlDanhMucQuanLiSanPham.ImageStream")));
+            this.imlDanhMucQuanLiSanPham.TransparentColor = System.Drawing.Color.Transparent;
+            this.imlDanhMucQuanLiSanPham.Images.SetKeyName(0, "product-catalog.png");
+            // 
+            // btnQlyNguoiDung
+            // 
+            this.btnQlyNguoiDung.FlatAppearance.BorderColor = System.Drawing.Color.LightCyan;
+            this.btnQlyNguoiDung.FlatAppearance.BorderSize = 5;
+            this.btnQlyNguoiDung.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnQlyNguoiDung.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCyan;
+            this.btnQlyNguoiDung.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQlyNguoiDung.ImageIndex = 0;
+            this.btnQlyNguoiDung.ImageList = this.imlQuanLiNguoiDung;
+            this.btnQlyNguoiDung.Location = new System.Drawing.Point(16, 26);
+            this.btnQlyNguoiDung.Margin = new System.Windows.Forms.Padding(4);
+            this.btnQlyNguoiDung.Name = "btnQlyNguoiDung";
+            this.btnQlyNguoiDung.Size = new System.Drawing.Size(160, 160);
+            this.btnQlyNguoiDung.TabIndex = 6;
+            this.btnQlyNguoiDung.Text = "Quản Lý Người Dùng";
+            this.btnQlyNguoiDung.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnQlyNguoiDung.UseVisualStyleBackColor = true;
+            // 
+            // imlQuanLiNguoiDung
+            // 
+            this.imlQuanLiNguoiDung.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlQuanLiNguoiDung.ImageStream")));
+            this.imlQuanLiNguoiDung.TransparentColor = System.Drawing.Color.Transparent;
+            this.imlQuanLiNguoiDung.Images.SetKeyName(0, "management.png");
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(43, 2);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(117, 76);
+            this.pictureBox3.Size = new System.Drawing.Size(156, 94);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
             // 
-            // button1
+            // panel1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 156);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(183, 38);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Quản Lý Người Dùng";
-            this.button1.UseVisualStyleBackColor = true;
+            this.panel1.BackColor = System.Drawing.Color.Azure;
+            this.panel1.Controls.Add(this.txtMaNV);
+            this.panel1.Controls.Add(this.txtRole);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(-1, -1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1903, 98);
+            this.panel1.TabIndex = 6;
             // 
-            // button2
+            // panel2
             // 
-            this.button2.Location = new System.Drawing.Point(13, 212);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(183, 38);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Quản lý danh mục sản phẩm";
-            this.button2.UseVisualStyleBackColor = true;
+            this.panel2.BackColor = System.Drawing.Color.Azure;
+            this.panel2.Location = new System.Drawing.Point(391, 103);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1511, 886);
+            this.panel2.TabIndex = 7;
             // 
-            // button3
+            // panel3
             // 
-            this.button3.Location = new System.Drawing.Point(13, 266);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(183, 38);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Quản lý kho\n\n";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.UseVisualStyleBackColor = true;
+            this.panel3.BackColor = System.Drawing.Color.Azure;
+            this.panel3.Controls.Add(this.btnInFile);
+            this.panel3.Controls.Add(this.btnQlyNguoiDung);
+            this.panel3.Controls.Add(this.btnBieuDoDT);
+            this.panel3.Controls.Add(this.btnQlyCongNoKH);
+            this.panel3.Controls.Add(this.btnQlySanPham);
+            this.panel3.Controls.Add(this.btnQlyKho);
+            this.panel3.Controls.Add(this.btnQlyLichSu);
+            this.panel3.Location = new System.Drawing.Point(-1, 103);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(386, 886);
+            this.panel3.TabIndex = 8;
             // 
-            // button4
+            // txtRole
             // 
-            this.button4.Location = new System.Drawing.Point(13, 327);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(183, 38);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Quản lý lịch sử mua bán\n\n";
-            this.button4.UseVisualStyleBackColor = true;
+            this.txtRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRole.Location = new System.Drawing.Point(291, 10);
+            this.txtRole.Name = "txtRole";
+            this.txtRole.Size = new System.Drawing.Size(184, 30);
+            this.txtRole.TabIndex = 6;
             // 
-            // button5
+            // label3
             // 
-            this.button5.Location = new System.Drawing.Point(13, 387);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(183, 38);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "Quản lý công nợ khách hàng \n\n";
-            this.button5.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(166, 54);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(79, 25);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Mã NV:";
+            this.label3.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button6
+            // txtMaNV
             // 
-            this.button6.Location = new System.Drawing.Point(13, 445);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(183, 38);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Hiển thị biểu đồ doanh thu";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(13, 502);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(183, 38);
-            this.button7.TabIndex = 12;
-            this.button7.Text = "Xuất danh sách hàng tồn kho ra file vật lý";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // pn_NV
-            // 
-            this.pn_NV.Controls.Add(this.button8);
-            this.pn_NV.Controls.Add(this.pictureBox1);
-            this.pn_NV.Controls.Add(this.button9);
-            this.pn_NV.Controls.Add(this.label6);
-            this.pn_NV.Controls.Add(this.button10);
-            this.pn_NV.Controls.Add(this.label8);
-            this.pn_NV.Location = new System.Drawing.Point(795, 2);
-            this.pn_NV.Name = "pn_NV";
-            this.pn_NV.Size = new System.Drawing.Size(215, 576);
-            this.pn_NV.TabIndex = 6;
-            this.pn_NV.Visible = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(50, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(117, 76);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(84, 98);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "XXXX";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(17, 98);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 13);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "UserName:";
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(20, 264);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(183, 38);
-            this.button8.TabIndex = 15;
-            this.button8.Text = "Xuất hóa đơn bán lẻ";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(20, 210);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(183, 38);
-            this.button9.TabIndex = 14;
-            this.button9.Text = "Tìm kiếm sản phẩm";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(20, 154);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(183, 38);
-            this.button10.TabIndex = 13;
-            this.button10.Text = "Bán lẻ ";
-            this.button10.UseVisualStyleBackColor = true;
+            this.txtMaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaNV.Location = new System.Drawing.Point(291, 51);
+            this.txtMaNV.Name = "txtMaNV";
+            this.txtMaNV.Size = new System.Drawing.Size(184, 30);
+            this.txtMaNV.TabIndex = 6;
             // 
             // FrmGiaoDienChinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1012, 578);
-            this.Controls.Add(this.pn_NV);
-            this.Controls.Add(this.pn_Chu);
+            this.BackColor = System.Drawing.Color.Gray;
+            this.ClientSize = new System.Drawing.Size(1902, 983);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FrmGiaoDienChinh";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmGiaoDienChinh";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.FrmGiaoDienChinh_Load);
-            this.pn_Chu.ResumeLayout(false);
-            this.pn_Chu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.pn_NV.ResumeLayout(false);
-            this.pn_NV.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -271,22 +329,26 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel pn_Chu;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel pn_NV;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnInFile;
+        private System.Windows.Forms.Button btnBieuDoDT;
+        private System.Windows.Forms.Button btnQlyCongNoKH;
+        private System.Windows.Forms.Button btnQlyLichSu;
+        private System.Windows.Forms.Button btnQlyKho;
+        private System.Windows.Forms.Button btnQlySanPham;
+        private System.Windows.Forms.Button btnQlyNguoiDung;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ImageList imlQuanLiNguoiDung;
+        private System.Windows.Forms.ImageList imlDanhMucQuanLiSanPham;
+        private System.Windows.Forms.ImageList imlQuanLiKho;
+        private System.Windows.Forms.ImageList imlLichSuMuaBan;
+        private System.Windows.Forms.ImageList imlCongNoKhachHang;
+        private System.Windows.Forms.ImageList imlBieuDo;
+        private System.Windows.Forms.ImageList imlXuatFile;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TextBox txtRole;
+        private System.Windows.Forms.TextBox txtMaNV;
+        private System.Windows.Forms.Label label3;
     }
 }

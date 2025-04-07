@@ -46,6 +46,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChucNangQuanLy\ucBieuDoDoanhThu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucBieuDoDoanhThu.Designer.cs">
+      <DependentUpon>ucBieuDoDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucInFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucInFile.Designer.cs">
+      <DependentUpon>ucInFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucQlyCongNoKH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucQlyCongNoKH.Designer.cs">
+      <DependentUpon>ucQlyCongNoKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucQlyDanhMucSanPham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucQlyDanhMucSanPham.Designer.cs">
+      <DependentUpon>ucQlyDanhMucSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucQlyKho.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucQlyKho.Designer.cs">
+      <DependentUpon>ucQlyKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucQlyLichSuMuaBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucQlyLichSuMuaBan.Designer.cs">
+      <DependentUpon>ucQlyLichSuMuaBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucQLyNguoiDung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChucNangQuanLy\ucQLyNguoiDung.Designer.cs">
+      <DependentUpon>ucQLyNguoiDung.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmGiaoDienChinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +100,25 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNhanVien.Designer.cs">
+      <DependentUpon>FrmNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChucNangQuanLy\ucQLyNguoiDung.resx">
+      <DependentUpon>ucQLyNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmGiaoDienChinh.resx">
       <DependentUpon>FrmGiaoDienChinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNhanVien.resx">
+      <DependentUpon>FrmNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -98,5 +152,6 @@
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

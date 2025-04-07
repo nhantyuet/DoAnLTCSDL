@@ -61,3 +61,21 @@ C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLe
 C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongB.49F8C797.Up2Date
 C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.exe
 C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.pdb
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.csproj.AssemblyReference.cache
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.FrmGiaoDienChinh.resources
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.FrmLogin.resources
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.Properties.Resources.resources
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.csproj.GenerateResource.cache
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.csproj.CoreCompileInputs.cache
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.exe
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.pdb
+D:\NewDoAn\HeThongBanLeVLXD\bin\Debug\HeThongBanLeVLXD.exe.config
+D:\NewDoAn\HeThongBanLeVLXD\bin\Debug\HeThongBanLeVLXD.exe
+D:\NewDoAn\HeThongBanLeVLXD\bin\Debug\HeThongBanLeVLXD.pdb
+D:\NewDoAn\HeThongBanLeVLXD\bin\Debug\BUS.dll
+D:\NewDoAn\HeThongBanLeVLXD\bin\Debug\DTO.dll
+D:\NewDoAn\HeThongBanLeVLXD\bin\Debug\BUS.pdb
+D:\NewDoAn\HeThongBanLeVLXD\bin\Debug\DTO.pdb
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongB.49F8C797.Up2Date
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.FrmNhanVien.resources
+D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangQuanLy.ucQLyNguoiDung.resources
