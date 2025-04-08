@@ -16,3 +16,12 @@ C:\Users\pc\Downloads\DoAn_LTCSDL-main\DAO\obj\Debug\DAO.csproj.CoreCompileInput
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\DAO\obj\Debug\DAO.csproj.Up2Date
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\DAO\obj\Debug\DAO.dll
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\DAO\obj\Debug\DAO.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DAO\bin\Debug\DAO.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DAO\bin\Debug\DAO.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DAO\bin\Debug\DTO.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DAO\bin\Debug\DTO.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DAO\obj\Debug\DAO.csproj.Up2Date
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DAO\obj\Debug\DAO.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DAO\obj\Debug\DAO.pdb

@@ -79,3 +79,5 @@ D:\NewDoAn\HeThongBanLeVLXD\bin\Debug\DTO.pdb
 D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongB.49F8C797.Up2Date
 D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.FrmNhanVien.resources
 D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangQuanLy.ucQLyNguoiDung.resources
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangQuanLy.ucQLyNguoiDung.resources
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.FrmNhanVien.resources

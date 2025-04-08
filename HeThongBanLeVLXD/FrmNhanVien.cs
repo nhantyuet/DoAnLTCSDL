@@ -16,5 +16,16 @@ namespace HeThongBanLeVLXD
         {
             InitializeComponent();
         }
+        public string usna_NV;
+
+        private void FrmNhanVien_Load(object sender, EventArgs e)
+        {
+            label7.Text = usna_NV;
+        }
+
+        private void FrmNhanVien_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

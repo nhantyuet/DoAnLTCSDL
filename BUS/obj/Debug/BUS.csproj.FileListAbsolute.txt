@@ -20,3 +20,14 @@ C:\Users\pc\Downloads\DoAn_LTCSDL-main\BUS\obj\Debug\BUS.csproj.CoreCompileInput
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\BUS\obj\Debug\BUS.csproj.Up2Date
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\BUS\obj\Debug\BUS.dll
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\BUS\obj\Debug\BUS.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\bin\Debug\BUS.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\bin\Debug\BUS.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\bin\Debug\DAO.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\bin\Debug\DTO.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\bin\Debug\DAO.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\bin\Debug\DTO.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\obj\Debug\BUS.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\BUS\obj\Debug\BUS.pdb

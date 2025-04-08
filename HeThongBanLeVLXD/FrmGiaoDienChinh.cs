@@ -20,27 +20,27 @@ namespace HeThongBanLeVLXD
 
         private void FrmGiaoDienChinh_Load(object sender, EventArgs e)
         {
-            this.Show();
-            this.Enabled = true;
+            this.Hide();
             FrmLogin Frmlogin = new FrmLogin();
             DialogResult result = Frmlogin.ShowDialog();
 
             if (result == DialogResult.OK)
             {
-                this.Enabled = true;
+                //this.Enabled = true;
                 if (Frmlogin.roled == "ChuCuaHang")
                 {
-                    pn_Chu.Visible = true;
-                    label4.Text = Frmlogin.usernamed;
+                    this.Show();
+                    this.WindowState = FormWindowState.Normal;
+                    label7.Text= Frmlogin.usernamed;
                 }
                 else if (Frmlogin.roled == "NhanVienBanHang")
                 {
-                    pn_NV.Visible = true;
-                    label6.Text = Frmlogin.usernamed;
-                    //test git
+                    FrmNhanVien frmNhanVien = new FrmNhanVien();
+                    frmNhanVien.usna_NV = Frmlogin.usernamed; // truyền username từ FrmLogin
+                    this.WindowState = FormWindowState.Normal;
+                    frmNhanVien.Show();
+                    this.Hide();
                 }
-                //label4.Text = Frmlogin.usernamed;
-                //label5.Text = Frmlogin.roled;
             }
             else
             {
