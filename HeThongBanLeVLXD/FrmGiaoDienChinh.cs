@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,7 @@ namespace HeThongBanLeVLXD
 {
     public partial class FrmGiaoDienChinh : Form
     {
+        DataProvider dp = new DataProvider();
         public FrmGiaoDienChinh()
         {
             InitializeComponent();
@@ -31,12 +33,13 @@ namespace HeThongBanLeVLXD
                 {
                     this.Show();
                     this.WindowState = FormWindowState.Normal;
-                    label7.Text= Frmlogin.usernamed;
+                    lbMaNhanVien.Text= Frmlogin.usernamed;
+                    lbTenNhanVien.Text = dp.tenNhanVien(Frmlogin.usernamed);
                 }
                 else if (Frmlogin.roled == "NhanVienBanHang")
                 {
                     FrmNhanVien frmNhanVien = new FrmNhanVien();
-                    frmNhanVien.usna_NV = Frmlogin.usernamed; // truyền username từ FrmLogin
+                    frmNhanVien.ma_NV = Frmlogin.usernamed; // truyền username từ FrmLogin
                     this.WindowState = FormWindowState.Normal;
                     frmNhanVien.Show();
                     this.Hide();
@@ -48,9 +51,6 @@ namespace HeThongBanLeVLXD
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+ 
     }
 }

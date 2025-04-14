@@ -3,20 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\hethongbanlevlxd\\frmgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:frmgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\hethongbanlevlxd\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\hethongbanlevlxd\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\hethongbanlevlxd\\chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,22 +29,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "FrmLogin.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmLogin.cs",
-              "RelativeToolTip": "FrmLogin.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAIwFcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T18:34:19.542Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -52,6 +41,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ucBanLe.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs",
+              "RelativeDocumentMoniker": "ChucNangNhanVien\\ucBanLe.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs",
+              "RelativeToolTip": "ChucNangNhanVien\\ucBanLe.cs",
+              "ViewState": "AQIAAEoBAAAAAAAAAAAAAGIBAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T12:09:04.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmNhanVien.cs",
+              "RelativeDocumentMoniker": "FrmNhanVien.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmNhanVien.cs",
+              "RelativeToolTip": "FrmNhanVien.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAiwCcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T06:06:02.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FrmNhanVien.cs [Design]",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmNhanVien.cs",
@@ -59,33 +74,32 @@
               "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmNhanVien.cs [Design]",
               "RelativeToolTip": "FrmNhanVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T08:57:18.983Z",
+              "WhenOpened": "2025-04-13T05:58:07.062Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmNhanVien.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmNhanVien.cs",
-              "RelativeDocumentMoniker": "FrmNhanVien.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmNhanVien.cs",
-              "RelativeToolTip": "FrmNhanVien.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAswBYAAAAiAAAA",
+              "DocumentIndex": 3,
+              "Title": "ucBanLe.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs",
+              "RelativeDocumentMoniker": "ChucNangNhanVien\\ucBanLe.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs [Design]",
+              "RelativeToolTip": "ChucNangNhanVien\\ucBanLe.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:07:52.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T12:28:34.8Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmGiaoDienChinh.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmGiaoDienChinh.cs",
-              "RelativeDocumentMoniker": "FrmGiaoDienChinh.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmGiaoDienChinh.cs",
-              "RelativeToolTip": "FrmGiaoDienChinh.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAvAAAA",
+              "DocumentIndex": 4,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\DataProvider.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\DataProvider.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\DataProvider.cs",
+              "RelativeToolTip": "..\\DTO\\DataProvider.cs",
+              "ViewState": "AQIAAG4BAAAAAAAAAAAIwIYBAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T19:59:22.197Z",
+              "WhenOpened": "2025-04-10T15:32:59.317Z",
               "EditorCaption": ""
             }
           ]

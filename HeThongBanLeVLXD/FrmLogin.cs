@@ -17,6 +17,7 @@ namespace HeThongBanLeVLXD
     public partial class FrmLogin : Form
     {
         public string usernamed;
+        public string maNVed;
         public string roled;
         public FrmLogin()
         {

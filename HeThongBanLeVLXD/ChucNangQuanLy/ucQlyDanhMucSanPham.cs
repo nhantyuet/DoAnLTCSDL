@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HeThongBanLeVLXD.ChucNangQuanLy
 {
-    public partial class ucQlyDanhMucSanPham : UserControl
+    public partial class ucTimKiemSanPham : UserControl
     {
-        public ucQlyDanhMucSanPham()
+        public ucTimKiemSanPham()
         {
             InitializeComponent();
         }

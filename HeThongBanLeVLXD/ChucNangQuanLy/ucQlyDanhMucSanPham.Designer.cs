@@ -1,6 +1,6 @@
 ﻿namespace HeThongBanLeVLXD.ChucNangQuanLy
 {
-    partial class ucQlyDanhMucSanPham
+    partial class ucTimKiemSanPham
     {
         /// <summary> 
         /// Required designer variable.

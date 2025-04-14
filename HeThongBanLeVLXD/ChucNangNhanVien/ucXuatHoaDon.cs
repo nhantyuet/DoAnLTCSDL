@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HeThongBanLeVLXD.ChucNangQuanLy
+namespace HeThongBanLeVLXD.ChucNangNhanVien
 {
-    public partial class ucBanLe : UserControl
+    public partial class ucXuatHoaDon : UserControl
     {
-        public ucBanLe()
+        public ucXuatHoaDon()
         {
             InitializeComponent();
         }
