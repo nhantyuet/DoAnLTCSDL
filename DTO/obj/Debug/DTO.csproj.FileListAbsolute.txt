@@ -10,3 +10,9 @@ C:\Users\pc\Downloads\DoAn_LTCSDL-main\DTO\obj\Debug\DTO.csproj.AssemblyReferenc
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\DTO\obj\Debug\DTO.dll
 C:\Users\pc\Downloads\DoAn_LTCSDL-main\DTO\obj\Debug\DTO.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DTO\bin\Debug\DTO.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DTO\bin\Debug\DTO.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DTO\obj\Debug\DTO.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\DTO\obj\Debug\DTO.pdb
