@@ -52,11 +52,11 @@
     <Compile Include="ChucNangNhanVien\ucBanLe.Designer.cs">
       <DependentUpon>ucBanLe.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChucNangNhanVien\ucTimKiemSanPham.cs">
+    <Compile Include="ChucNangNhanVien\ucThanhToanCongNo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ChucNangNhanVien\ucTimKiemSanPham.Designer.cs">
-      <DependentUpon>ucTimKiemSanPham.cs</DependentUpon>
+    <Compile Include="ChucNangNhanVien\ucThanhToanCongNo.Designer.cs">
+      <DependentUpon>ucThanhToanCongNo.cs</DependentUpon>
     </Compile>
     <Compile Include="ChucNangNhanVien\ucXuatHoaDon.cs">
       <SubType>UserControl</SubType>
@@ -129,8 +129,8 @@
     <EmbeddedResource Include="ChucNangNhanVien\ucBanLe.resx">
       <DependentUpon>ucBanLe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChucNangNhanVien\ucTimKiemSanPham.resx">
-      <DependentUpon>ucTimKiemSanPham.cs</DependentUpon>
+    <EmbeddedResource Include="ChucNangNhanVien\ucThanhToanCongNo.resx">
+      <DependentUpon>ucThanhToanCongNo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChucNangNhanVien\ucXuatHoaDon.resx">
       <DependentUpon>ucXuatHoaDon.cs</DependentUpon>
@@ -175,10 +175,9 @@
       <Name>BUS</Name>
     </ProjectReference>
     <ProjectReference Include="..\DTO\DTO.csproj">
-      <Project>{6cc0e9a6-d67c-4f88-aa2c-37ff14e1a8ec}</Project>
+      <Project>{13261c09-801b-4bdb-af80-27074c546dfd}</Project>
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

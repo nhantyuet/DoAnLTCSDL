@@ -82,5 +82,7 @@ D:\NewDoAn\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangQuanLy.ucQLyNguoi
 C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangQuanLy.ucQLyNguoiDung.resources
 C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.FrmNhanVien.resources
 C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangNhanVien.ucBanLe.resources
-C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangNhanVien.ucTimKiemSanPham.resources
 C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangNhanVien.ucXuatHoaDon.resources
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangNhanVien.ucThanhToanCongNo.resources
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\DAO.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\DAO.pdb

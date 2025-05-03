@@ -42,6 +42,12 @@
             this.lbTongTien = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.TenVL1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DonViTinh1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GiaBan1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SLMua = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -77,18 +83,12 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.ThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SLMua = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GiaBan1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DonViTinh1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenVL1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numSLDH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -127,7 +127,6 @@
             this.lbMaNhanVien.Size = new System.Drawing.Size(29, 20);
             this.lbMaNhanVien.TabIndex = 9;
             this.lbMaNhanVien.Text = ".....";
-            this.lbMaNhanVien.Click += new System.EventHandler(this.lbMaNhanVien_Click);
             // 
             // label16
             // 
@@ -255,6 +254,57 @@
             this.label14.Size = new System.Drawing.Size(87, 20);
             this.label14.TabIndex = 16;
             this.label14.Text = "Tổng BILL:";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.TenVL1,
+            this.DonViTinh1,
+            this.GiaBan1,
+            this.SLMua,
+            this.ThanhTien});
+            this.dataGridView2.Location = new System.Drawing.Point(14, 14);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(513, 333);
+            this.dataGridView2.TabIndex = 0;
+            this.dataGridView2.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridView2_RowsAdded);
+            this.dataGridView2.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dataGridView2_RowsRemoved);
+            // 
+            // TenVL1
+            // 
+            this.TenVL1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.TenVL1.HeaderText = "TenVL";
+            this.TenVL1.Name = "TenVL1";
+            this.TenVL1.ReadOnly = true;
+            this.TenVL1.Width = 150;
+            // 
+            // DonViTinh1
+            // 
+            this.DonViTinh1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.DonViTinh1.HeaderText = "DonViTinh";
+            this.DonViTinh1.Name = "DonViTinh1";
+            this.DonViTinh1.ReadOnly = true;
+            this.DonViTinh1.Width = 60;
+            // 
+            // GiaBan1
+            // 
+            this.GiaBan1.HeaderText = "GiaBan";
+            this.GiaBan1.Name = "GiaBan1";
+            this.GiaBan1.ReadOnly = true;
+            // 
+            // SLMua
+            // 
+            this.SLMua.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.SLMua.HeaderText = "SLMua";
+            this.SLMua.Name = "SLMua";
+            this.SLMua.Width = 60;
+            // 
+            // ThanhTien
+            // 
+            this.ThanhTien.HeaderText = "ThanhTien";
+            this.ThanhTien.Name = "ThanhTien";
+            this.ThanhTien.ReadOnly = true;
             // 
             // panel2
             // 
@@ -609,57 +659,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "ĐƠN ĐẶT HÀNG";
             // 
-            // ThanhTien
-            // 
-            this.ThanhTien.HeaderText = "ThanhTien";
-            this.ThanhTien.Name = "ThanhTien";
-            this.ThanhTien.ReadOnly = true;
-            // 
-            // SLMua
-            // 
-            this.SLMua.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.SLMua.HeaderText = "SLMua";
-            this.SLMua.Name = "SLMua";
-            this.SLMua.Width = 60;
-            // 
-            // GiaBan1
-            // 
-            this.GiaBan1.HeaderText = "GiaBan";
-            this.GiaBan1.Name = "GiaBan1";
-            this.GiaBan1.ReadOnly = true;
-            // 
-            // DonViTinh1
-            // 
-            this.DonViTinh1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.DonViTinh1.HeaderText = "DonViTinh";
-            this.DonViTinh1.Name = "DonViTinh1";
-            this.DonViTinh1.ReadOnly = true;
-            this.DonViTinh1.Width = 60;
-            // 
-            // TenVL1
-            // 
-            this.TenVL1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.TenVL1.HeaderText = "TenVL";
-            this.TenVL1.Name = "TenVL1";
-            this.TenVL1.ReadOnly = true;
-            this.TenVL1.Width = 150;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.TenVL1,
-            this.DonViTinh1,
-            this.GiaBan1,
-            this.SLMua,
-            this.ThanhTien});
-            this.dataGridView2.Location = new System.Drawing.Point(14, 14);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(513, 333);
-            this.dataGridView2.TabIndex = 0;
-            this.dataGridView2.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridView2_RowsAdded);
-            this.dataGridView2.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dataGridView2_RowsRemoved);
-            // 
             // ucBanLe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -673,11 +672,11 @@
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numSLDH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS;
 using DTO;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
@@ -18,33 +20,48 @@ namespace HeThongBanLeVLXD
     {
         public string usernamed;
         public string maNVed;
+        private LoginBL loginBL;
         public string roled;
         public FrmLogin()
         {
             InitializeComponent();
         }
-        private bool UserLogin(Account account)
+        private bool UserLogin(TaiKhoan tk)
         {
-            DataProvider dp = new DataProvider();
-            roled = dp.CheckLogin(account);
-            if (roled == "ChuCuaHang" || roled == "NhanVienBanHang")
+            loginBL = new LoginBL();
+            try
             {
-                return true;
+                roled = loginBL.CheckLoginBL(tk);
+                if (loginBL.CheckLoginBL(tk) == "ChuCuaHang" || loginBL.CheckLoginBL(tk) == "NhanVienBanHang")
+                {
+                    return true;
+                }
+                return false;
+                
             }
-            return false;
-            
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+    
         }
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
        
+            if(txtTenDangNhap.Text==""|| txtMatKhau.Text=="")
+            {
+                MessageBox.Show("Vui Long Nhap SDT_Khach_Hang", MessageBoxButtons.OK.ToString());
+                return;
+            }    
             string user, pass;
             user = txtTenDangNhap.Text.Trim();
             usernamed = user;
             pass = txtMatKhau.Text;
 
-            Account acc = new Account(user, pass);
+            TaiKhoan tk = new TaiKhoan(user, pass);
 
-            if (UserLogin(acc) == true)
+            if (UserLogin(tk) == true)
             {
                 this.DialogResult = DialogResult.OK;
             }
@@ -66,11 +83,6 @@ namespace HeThongBanLeVLXD
             this.Close();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void FrmLogin_Load(object sender, EventArgs e)
         {
 
@@ -82,7 +94,9 @@ namespace HeThongBanLeVLXD
             txtMatKhau.PasswordChar = checkBox1.Checked ? '\0':'*';
         }
 
-      
-        
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

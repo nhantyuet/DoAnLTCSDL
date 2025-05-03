@@ -12,16 +12,29 @@ namespace DTO
         public string TenKH { get; set; }
         public string DiaChi { get; set; }
         public string SDT { get; set; }
+        public string Email {  get; set; } 
+        public int CongNo { get; set; }
 
-        public KhachHang(int MaKH, string TenKH, string DiaChi, string SDT) 
+        public KhachHang(int maKH, string tenKH, string diaChi, string soDienThoai, string email, int congNo)
         {
-            this.MaKH = MaKH;
-            this.TenKH = TenKH;
-            this.DiaChi = DiaChi;
-            this.SDT = SDT;
+            this.MaKH = maKH;
+            this.TenKH = tenKH;
+            this.DiaChi = diaChi;
+            this.SDT = soDienThoai;
+            this.Email = email;
+            this.CongNo = congNo;
         }
-        public KhachHang()
+        public KhachHang(string tenKH, string diaChi, string soDienThoai, string email, int congNo)
+        {
+            this.TenKH = tenKH;
+            this.DiaChi = diaChi;
+            this.SDT = soDienThoai;
+            this.Email = email;
+            this.CongNo = congNo;
+        }
+        public KhachHang() 
         {
         }
+
     }
 }

@@ -9,34 +9,46 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS;
+using DAO;
 using DTO;
 namespace HeThongBanLeVLXD.ChucNangNhanVien
 {
 
     public partial class ucBanLe : UserControl
     {
-        private SqlDataAdapter adapter;
-        private DataSet dataSet;
-        private SqlConnection cn;
-        DataProvider dp = new DataProvider();
+     //  private SqlDataAdapter adapter;
+      //  private DataSet dataSet;
+     //   private SqlConnection cn;
+      //  DataProvider dp = new DataProvider();
         public string tenNhanVien;
         public string maNhanVien;
         private int tongTien;
+        private ucBanLeBL uc_BanLeBL;
         public ucBanLe()
         {
             InitializeComponent();
             
 
         }
-
+        private void LoadVatLieuTonKho() //Chua test ten xem co khop voi name hay k
+        {
+            uc_BanLeBL = new ucBanLeBL();
+            dataGridView1.Rows.Clear();
+            List<VatLieuTonKho> vatLieuTonKhos = uc_BanLeBL.GetVatLieuTonKhoBL();
+            foreach (VatLieuTonKho vatLieuTonKho in vatLieuTonKhos)
+            {
+                dataGridView1.Rows.Add(vatLieuTonKho.TenVL, vatLieuTonKho.GiaBan, vatLieuTonKho.SoLuongTon, vatLieuTonKho.DonViTinh);
+            }
+        
+        }
         private void ucBanLe_Load(object sender, EventArgs e)
         {
 
             lbMaNhanVien.Text = maNhanVien;
             lbTenNhanVien.Text = tenNhanVien;
             dateTimePicker1.Value = DateTime.Today; // Gán ngày hiện tại
-            dataSet = dp.napDuLieuVaoDanhSachSanPham();
-            dataGridView1.DataSource = dataSet.Tables[0];
+            LoadVatLieuTonKho();
             dataGridView2.Rows.Clear();
 
 
@@ -44,33 +56,32 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(tbSdtKh.Text == "")
+            uc_BanLeBL = new ucBanLeBL();
+            if (tbSdtKh.Text == "")
             {
                 MessageBox.Show("Vui Long Nhap SDT_Khach_Hang", MessageBoxButtons.OK.ToString());
             }
             else
             {
-                KhachHang khachHang = dp.timKiemKhachHang(tbSdtKh.Text.Trim());
-                if (khachHang != null)
+                try
                 {
-                   
+                    KhachHang khachHang = uc_BanLeBL.timKiemKhachHangBL(tbSdtKh.Text.Trim()); //Gọi ở ucBanLeBL
                     tbTenKhachHang.Text = khachHang.TenKH;
                     tbDiaChi.Text = khachHang.DiaChi;
                 }
-                else
+                catch(SqlException ex) // chỗ này nó hơi vô lý ch test lại
                 {
-                    MessageBox.Show("Dữ liệu của khách hàng không tồn tại", "Thông báo", MessageBoxButtons.OK);
-                    // Có thể clear các textbox nếu muốn
-                   
-                    tbTenKhachHang.Text = "";
-                    tbDiaChi.Text = "";
+                    MessageBox.Show(ex.Message, "Không Tìm thấy khách hàng ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
+                
+               
             }
-            
         }
 
         private void btThemKH_Click(object sender, EventArgs e)
         {
+            KhachHang khachHang = new KhachHang();
+            uc_BanLeBL = new ucBanLeBL();
             if (tbDiaChi.Text == "" || tbTenKhachHang.Text == "" || tbSdtKh.Text == "")
             {
                 MessageBox.Show("Vui Long Dien Day Du Du Lieu Neu Muon Them KH Moi Vao DB", "Thông báo", MessageBoxButtons.OK);
@@ -80,41 +91,43 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
             }
             else
             {
-                KhachHang kh = new KhachHang();
-                kh.DiaChi = tbDiaChi.Text;
-                kh.SDT = tbSdtKh.Text;
-                kh.TenKH = tbTenKhachHang.Text;
-                if(dp.themKhachHang(kh))
+                try
                 {
+                    khachHang.DiaChi = tbDiaChi.Text;
+                    khachHang.SDT = tbSdtKh.Text;
+                    khachHang.TenKH = tbTenKhachHang.Text;
+                    uc_BanLeBL.themKhachHangBL(khachHang);
                     MessageBox.Show("Da Them KH vao DB", "Thông báo", MessageBoxButtons.OK);
                     tbTenKhachHang.Text = "";
                     tbDiaChi.Text = "";
+
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Thong Tin Khach Hang Khong Duoc Luu", "Thông báo", MessageBoxButtons.OK);
-                    tbTenKhachHang.Text = "";
-                    tbDiaChi.Text = "";
+                    MessageBox.Show(ex.Message);
+
                 }
             }
         }
 
-
+     
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             if(tbTenVl.Text == "")
             {
-                dataSet.Clear();    
-                dataSet = dp.napDuLieuVaoDanhSachSanPham();
-                dataGridView1.DataSource = dataSet.Tables[0];
+                dataGridView1.Rows.Clear();
+                LoadVatLieuTonKho();
             }
             else
             {
-                dataSet.Clear();
-                dataSet = dp.timKiemSanPham(tbTenVl.Text);
-                Console.WriteLine(tbTenVl.Text);
-                dataGridView1.DataSource = dataSet.Tables[0];
+                dataGridView1.Rows.Clear();
+                List<VatLieuTonKho> vatLieuTonKhos = uc_BanLeBL.timKiemSanPhamBL(tbTenVl.Text);
+                foreach (VatLieuTonKho vatLieuTonKho in vatLieuTonKhos)
+                {
+                    dataGridView1.Rows.Add(vatLieuTonKho.TenVL, vatLieuTonKho.DonViTinh, vatLieuTonKho.DonViTinh, vatLieuTonKho.GiaBan);
+                }
+               
             }
         }
 
@@ -159,7 +172,7 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
                 foreach (DataGridViewRow row in dataGridView2.Rows)
                 {
                     if (!row.IsNewRow && row.Cells[0].Value.ToString() == lbTenVL.Text)
-                    {
+                    {   
                         // Đã tồn tại → Cập nhật số lượng và thành tiền
                         int soLuongCu = int.Parse(row.Cells[3].Value.ToString());
                         int soLuongMoi = soLuongCu + (int)numSLDH.Value;
@@ -281,15 +294,12 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
             }
         }
 
-        private void lbMaNhanVien_Click(object sender, EventArgs e)
-        {
-
-        }
+        //------------------------------------------------------------------------------------------------
 
         private void button4_Click(object sender, EventArgs e)
            {
-
                int tienThoi;
+               uc_BanLeBL = new ucBanLeBL();
                int len = lbTongTien.Text.Length;
                string tongTien = lbTongTien.Text;
                tongTien = tongTien.Substring(0, len - 2);
@@ -299,9 +309,9 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
             }
             else if (int.Parse(lbTienThoi.Text) == 0) // là trả đủ tiền lun 
             {
-
-                int maDH = dp.insertDonHang(dp.maKH(tbSdtKh.Text.ToString()), dp.maNV(lbTenNhanVien.Text), dateTimePicker1.Value.ToString(),
+                DonHang donHang = new DonHang(Int32.Parse (uc_BanLeBL.getMaKHBL(tbSdtKh.Text.ToString())) , Int32.Parse(uc_BanLeBL.getMaNVBL(lbTenNhanVien.Text)), dateTimePicker1.Value.ToString(),
                dateTimePicker2.Value.ToString(), tbDiaChi.Text, tbSdtKh.Text);
+                int maDH = uc_BanLeBL.insertDonHangBL(donHang);
                 int tongTienHoaDon = 0;
 
                 if (maDH > -1)
@@ -311,13 +321,15 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
                         // Bỏ qua dòng trống cuối cùng của DataGridView
                         if (row.IsNewRow) continue;
 
-                        int maVL = int.Parse(dp.maVL(row.Cells[0].Value.ToString()));
+                        int maVL = int.Parse(uc_BanLeBL.getMaVLBL(row.Cells[0].Value.ToString()));
                         int giaBan = int.Parse(row.Cells[2].Value.ToString());
                         int slMua = int.Parse(row.Cells[3].Value.ToString());
                         tongTienHoaDon += giaBan * slMua; // chua can dung toi
-                        dp.insertChiTietDonHang(maDH, maVL, giaBan, slMua);
+                        ChiTietDonHang chiTietDonHang = new ChiTietDonHang(maDH,maVL, giaBan, slMua);
+                        uc_BanLeBL.ThemChiTietDonHangBL(chiTietDonHang);
                     }
-                    dp.insertHoaDon(maDH, dateTimePicker1.Value.ToString(), tongTienHoaDon, "Da Thanh Toan");
+                    HoaDon hoaDon = new HoaDon(maDH, dateTimePicker1.Value.ToString(), tongTienHoaDon, "Da Thanh Toan");
+                    uc_BanLeBL.insertHoaDonBL(hoaDon);
                     MessageBox.Show("Thêm chi tiết đơn hàng thành công!");
 
                 }
@@ -328,8 +340,9 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
             }
             else
             {
-                int maDH = dp.insertDonHang(dp.maKH(tbSdtKh.Text.ToString()), dp.maNV(lbTenNhanVien.Text), dateTimePicker1.Value.ToString(),
+                DonHang donHang = new DonHang(Int32.Parse(uc_BanLeBL.getMaKHBL(tbSdtKh.Text.ToString())), Int32.Parse(uc_BanLeBL.getMaNVBL(lbTenNhanVien.Text)), dateTimePicker1.Value.ToString(),
                     dateTimePicker2.Value.ToString(), tbDiaChi.Text, tbSdtKh.Text);
+                int maDH = uc_BanLeBL.insertDonHangBL(donHang);
                 int tongTienHoaDon = 0;
                 if (maDH > -1)
                 {
@@ -338,15 +351,20 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
                         // Bỏ qua dòng trống cuối cùng của DataGridView
                         if (row.IsNewRow) continue;
 
-                        int maVL = int.Parse(dp.maVL(row.Cells[0].Value.ToString()));
+                        int maVL = int.Parse(uc_BanLeBL.getMaVLBL(row.Cells[0].Value.ToString()));
                         int giaBan = int.Parse(row.Cells[2].Value.ToString());
                         int slMua = int.Parse(row.Cells[3].Value.ToString());
                         tongTienHoaDon += giaBan * slMua; // chua can dung toi
-                        dp.insertChiTietDonHang(maDH, maVL, giaBan, slMua);
+                        ChiTietDonHang chiTietDonHang = new ChiTietDonHang(maDH, maVL, giaBan, slMua);
+                        uc_BanLeBL.ThemChiTietDonHangBL(chiTietDonHang);
                     }
-                    dp.insertHoaDon(maDH, dateTimePicker1.Value.ToString(), tongTienHoaDon, "Chua Thanh Toan Day Du");
+                    HoaDon hoaDon = new HoaDon(maDH, dateTimePicker1.Value.ToString(), tongTienHoaDon, "Chua Thanh Toan Day Du");
+                    uc_BanLeBL.insertHoaDonBL(hoaDon);
                     Console.WriteLine(int.Parse(lbTienThoi.Text));
-                    dp.themCongNo(tbSdtKh.Text.ToString(), int.Parse(lbTienThoi.Text));
+                    
+                    uc_BanLeBL.ThemCongNoBL(tbSdtKh.Text.ToString(), int.Parse(lbTienThoi.Text));
+                    LichSuCongNo lichSuCongNo = new LichSuCongNo(int.Parse(uc_BanLeBL.getMaKHBL(tbSdtKh.Text.ToString())), int.Parse(uc_BanLeBL.getMaNVBL(lbTenNhanVien.Text)), int.Parse(lbTienThoi.Text), dateTimePicker1.Value.ToString());
+                    uc_BanLeBL.ThemLichSuCongNoBL(lichSuCongNo);
                     MessageBox.Show("Thêm chi tiết đơn hàng thành công!");
                     this.Controls.Clear();
                     this.InitializeComponent();

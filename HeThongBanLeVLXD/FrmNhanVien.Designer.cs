@@ -259,7 +259,7 @@
             this.btnQlySanPham.Name = "btnQlySanPham";
             this.btnQlySanPham.Size = new System.Drawing.Size(120, 130);
             this.btnQlySanPham.TabIndex = 7;
-            this.btnQlySanPham.Text = "Tìm Kiếm Sản Phẩm";
+            this.btnQlySanPham.Text = "Thanh Toán Công Nợ";
             this.btnQlySanPham.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnQlySanPham.UseVisualStyleBackColor = true;
             this.btnQlySanPham.Click += new System.EventHandler(this.btnQlySanPham_Click);

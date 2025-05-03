@@ -1,4 +1,5 @@
-﻿using DTO;
+﻿using BUS;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,7 +15,7 @@ namespace HeThongBanLeVLXD
 {
     public partial class FrmGiaoDienChinh : Form
     {
-        DataProvider dp = new DataProvider();
+        private FrmGiaoDienChinhBL frmGiaoDienChinhBL;
         public FrmGiaoDienChinh()
         {
             InitializeComponent();
@@ -22,6 +23,7 @@ namespace HeThongBanLeVLXD
 
         private void FrmGiaoDienChinh_Load(object sender, EventArgs e)
         {
+            frmGiaoDienChinhBL = new FrmGiaoDienChinhBL();
             this.Hide();
             FrmLogin Frmlogin = new FrmLogin();
             DialogResult result = Frmlogin.ShowDialog();
@@ -34,7 +36,7 @@ namespace HeThongBanLeVLXD
                     this.Show();
                     this.WindowState = FormWindowState.Normal;
                     lbMaNhanVien.Text= Frmlogin.usernamed;
-                    lbTenNhanVien.Text = dp.tenNhanVien(Frmlogin.usernamed);
+                    lbTenNhanVien.Text = frmGiaoDienChinhBL.tenNhanVienBL(Frmlogin.usernamed);
                 }
                 else if (Frmlogin.roled == "NhanVienBanHang")
                 {

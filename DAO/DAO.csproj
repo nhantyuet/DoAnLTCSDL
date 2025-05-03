@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13261C09-801B-4BDB-AF80-27074C546DFD}</ProjectGuid>
+    <ProjectGuid>{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DAO</RootNamespace>
-    <AssemblyName>DAO</AssemblyName>
+    <RootNamespace>DTO</RootNamespace>
+    <AssemblyName>DTO</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,11 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="FrmGiaoDienChinhDL.cs" />
+    <Compile Include="FrmNhanVienDL.cs" />
+    <Compile Include="LoginDL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucBanLeDL.cs" />
+    <Compile Include="ucThanhToanCongNoDL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">
-      <Project>{6cc0e9a6-d67c-4f88-aa2c-37ff14e1a8ec}</Project>
+      <Project>{13261c09-801b-4bdb-af80-27074c546dfd}</Project>
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>

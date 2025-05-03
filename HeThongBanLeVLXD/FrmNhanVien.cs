@@ -1,4 +1,5 @@
-﻿using DTO;
+﻿using BUS;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,12 +22,14 @@ namespace HeThongBanLeVLXD
         }
         public string usna_NV;
         public string ma_NV;
-        DataProvider dp = new DataProvider();
+   //     DataProvider dp = new DataProvider();
+        private FrmNhanVienBL frmNhanVienBL;
 
         private void FrmNhanVien_Load(object sender, EventArgs e)
         {
+            frmNhanVienBL = new FrmNhanVienBL();
             lbMaNhanVien.Text = ma_NV;
-            usna_NV = dp.tenNhanVien(ma_NV);
+            usna_NV = frmNhanVienBL.tenNhanVienBL(ma_NV); //Phải gọi tên Nhân Viên Của FrmNhanVienBL
             lbTenNhanVien.Text = usna_NV;
             
         }
@@ -36,7 +39,7 @@ namespace HeThongBanLeVLXD
             Application.Exit();
         }
 
-        private void btnQlyNguoiDung_Click(object sender, EventArgs e)
+        private void btnQlyNguoiDung_Click(object sender, EventArgs e) //Bán lẻ
         {
             ChucNangNhanVien.ucBanLe uc_ban_le = new ChucNangNhanVien.ucBanLe();
             uc_ban_le.tenNhanVien = lbMaNhanVien.Text;
@@ -46,12 +49,14 @@ namespace HeThongBanLeVLXD
             uc_ban_le.Show();
         }
 
-        private void btnQlySanPham_Click(object sender, EventArgs e)
+        private void btnQlySanPham_Click(object sender, EventArgs e) //Thanh Toán Công Nợ
         {
-            ChucNangNhanVien.ucTimKiemSanPham uc_tim_kiem = new ChucNangNhanVien.ucTimKiemSanPham();
+            ChucNangNhanVien.ucThanhToanCongNo uc_thanh_toan = new ChucNangNhanVien.ucThanhToanCongNo();
+            uc_thanh_toan.tenNhanVien = lbMaNhanVien.Text;
+            uc_thanh_toan.maNhanVien = lbTenNhanVien.Text;
             panelMain.Controls.Clear();
-            panelMain.Controls.Add(uc_tim_kiem);
-            uc_tim_kiem.Show();
+            panelMain.Controls.Add(uc_thanh_toan);
+            uc_thanh_toan.Show();
         }
 
         private void btnInFile_Click(object sender, EventArgs e)
