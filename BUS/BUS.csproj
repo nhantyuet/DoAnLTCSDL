@@ -47,7 +47,9 @@
     <Compile Include="LoginBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ucBanLeBL.cs" />
+    <Compile Include="ucBieuDoDoanhThuBL.cs" />
     <Compile Include="ucThanhToanCongNoBL.cs" />
+    <Compile Include="ucXuatHoaDonBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAO\DAO.csproj">

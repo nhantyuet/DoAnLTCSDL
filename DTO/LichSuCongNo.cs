@@ -12,8 +12,8 @@ namespace DTO
         public int MaKH { get; set; }
         public int MaNV { get; set; }
         public int SoTien { get; set; }
-        public string ThoiGian { get; set; }
-        public LichSuCongNo(int maLSCN, int maKH, int maNV, int soTien, string thoiGian)
+        public DateTime ThoiGian { get; set; }
+        public LichSuCongNo(int maLSCN, int maKH, int maNV, int soTien, DateTime thoiGian)
         {
             MaLSCN = maLSCN;
             MaKH = maKH;
@@ -21,7 +21,7 @@ namespace DTO
             SoTien = soTien;
             ThoiGian = thoiGian;
         }
-        public LichSuCongNo(int maKH, int maNV, int soTien, string thoiGian)
+        public LichSuCongNo(int maKH, int maNV, int soTien, DateTime thoiGian)
         {
             MaKH = maKH;
             MaNV = maNV;

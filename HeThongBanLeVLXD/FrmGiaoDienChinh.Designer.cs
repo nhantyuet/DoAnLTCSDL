@@ -47,12 +47,12 @@
             this.imlQuanLiNguoiDung = new System.Windows.Forms.ImageList(this.components);
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.lbMaNhanVien = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lbTenNhanVien = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -97,6 +97,7 @@
             this.btnBieuDoDT.Text = "Hiển thị biểu đồ doanh thu";
             this.btnBieuDoDT.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnBieuDoDT.UseVisualStyleBackColor = true;
+            this.btnBieuDoDT.Click += new System.EventHandler(this.btnBieuDoDT_Click);
             // 
             // imlBieuDo
             // 
@@ -230,31 +231,6 @@
             this.panel1.Size = new System.Drawing.Size(1427, 80);
             this.panel1.TabIndex = 6;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Azure;
-            this.panel2.Location = new System.Drawing.Point(293, 84);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1133, 720);
-            this.panel2.TabIndex = 7;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Azure;
-            this.panel3.Controls.Add(this.btnInFile);
-            this.panel3.Controls.Add(this.btnQlyNguoiDung);
-            this.panel3.Controls.Add(this.btnBieuDoDT);
-            this.panel3.Controls.Add(this.btnQlyCongNoKH);
-            this.panel3.Controls.Add(this.btnQlySanPham);
-            this.panel3.Controls.Add(this.btnQlyKho);
-            this.panel3.Controls.Add(this.btnQlyLichSu);
-            this.panel3.Location = new System.Drawing.Point(-1, 84);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(290, 720);
-            this.panel3.TabIndex = 8;
-            // 
             // lbMaNhanVien
             // 
             this.lbMaNhanVien.AutoSize = true;
@@ -294,6 +270,31 @@
             this.label1.Size = new System.Drawing.Size(94, 20);
             this.label1.TabIndex = 10;
             this.label1.Text = "Người dùng:";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Azure;
+            this.panel2.Location = new System.Drawing.Point(293, 84);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1133, 720);
+            this.panel2.TabIndex = 7;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Azure;
+            this.panel3.Controls.Add(this.btnInFile);
+            this.panel3.Controls.Add(this.btnQlyNguoiDung);
+            this.panel3.Controls.Add(this.btnBieuDoDT);
+            this.panel3.Controls.Add(this.btnQlyCongNoKH);
+            this.panel3.Controls.Add(this.btnQlySanPham);
+            this.panel3.Controls.Add(this.btnQlyKho);
+            this.panel3.Controls.Add(this.btnQlyLichSu);
+            this.panel3.Location = new System.Drawing.Point(-1, 84);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(290, 720);
+            this.panel3.TabIndex = 8;
             // 
             // FrmGiaoDienChinh
             // 

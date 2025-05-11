@@ -62,6 +62,8 @@ namespace HeThongBanLeVLXD
         private void btnInFile_Click(object sender, EventArgs e)
         {
             ChucNangNhanVien.ucXuatHoaDon ucXuatHoaDon = new ChucNangNhanVien.ucXuatHoaDon();
+            ucXuatHoaDon.tenNhanVien = lbMaNhanVien.Text;
+            ucXuatHoaDon.maNhanVien = lbTenNhanVien.Text;
             panelMain.Controls.Clear();
             panelMain.Controls.Add(ucXuatHoaDon);
             ucXuatHoaDon.Show();

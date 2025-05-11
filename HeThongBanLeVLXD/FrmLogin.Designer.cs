@@ -99,6 +99,7 @@
             this.txtTenDangNhap.Name = "txtTenDangNhap";
             this.txtTenDangNhap.Size = new System.Drawing.Size(250, 35);
             this.txtTenDangNhap.TabIndex = 0;
+            this.txtTenDangNhap.Text = "admin1";
             // 
             // txtMatKhau
             // 
@@ -109,6 +110,7 @@
             this.txtMatKhau.PasswordChar = '*';
             this.txtMatKhau.Size = new System.Drawing.Size(250, 35);
             this.txtMatKhau.TabIndex = 4;
+            this.txtMatKhau.Text = "pass1";
             // 
             // panel2
             // 

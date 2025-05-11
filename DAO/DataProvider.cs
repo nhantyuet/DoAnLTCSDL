@@ -13,8 +13,6 @@ namespace DTO
     public class DataProvider
     {
         public SqlConnection cn;
-        private SqlDataAdapter adapter;
-        private DataSet dataSet;
         public DataProvider()
         {
             //tren may m se khac cai snStr nen phai doi lai ten connect dc

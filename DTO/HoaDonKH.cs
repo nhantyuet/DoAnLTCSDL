@@ -11,10 +11,10 @@ namespace DAO
         public int MaHD { get; set; }
         public int MaDH { get; set; }
         public int MaKH { get; set; }
-        public string NgayLap { get; set; }
+        public DateTime NgayLap { get; set; }
         public int TongTien { get; set; }
         public string TrangThaiThanhToan { get; set; }
-        public HoaDonKH(int maHD,int maDH,int maKH, string ngayLap, int tongTien, string trangThaiThanhToan)
+        public HoaDonKH(int maHD,int maDH,int maKH, DateTime ngayLap, int tongTien, string trangThaiThanhToan)
         {
             this.MaHD = maHD;
             this.MaDH = maDH;

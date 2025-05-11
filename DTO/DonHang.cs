@@ -12,11 +12,11 @@ namespace DTO
         public int MaDH  {  get; set; }
         public int MaKH { get; set; }
         public int MaNV { get; set; }
-        public string NgayDatHang { get; set; }
-        public string NgayGiaoHang { get; set; }
+        public DateTime NgayDatHang { get; set; }
+        public DateTime NgayGiaoHang { get; set; }
         public string DiaChi {  get; set; }
         public string SoDienThoai {  get; set; }
-        public DonHang(int maDH, int maKH, int maNV, string ngayDatHang, string ngayGiaoHang, string diaChi, string soDienThoai) 
+        public DonHang(int maDH, int maKH, int maNV, DateTime ngayDatHang, DateTime ngayGiaoHang, string diaChi, string soDienThoai) 
         {
             this.MaDH = maDH;
             this.MaKH = maKH;
@@ -26,7 +26,7 @@ namespace DTO
             this.DiaChi = diaChi;
             this.SoDienThoai = soDienThoai;
         }
-        public DonHang(int maKH, int maNV, string ngayDatHang, string ngayGiaoHang, string diaChi, string soDienThoai)
+        public DonHang(int maKH, int maNV, DateTime ngayDatHang, DateTime ngayGiaoHang, string diaChi, string soDienThoai)
         {
             this.MaKH = maKH;
             this.MaNV = maNV;

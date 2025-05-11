@@ -11,16 +11,36 @@ namespace DTO
         public int MaCTDH {  get; set; }
         public int MaDH {  get; set; }
         public int MaVL { get; set; }
+        public string TenVL {  get; set; }
         public int GiaBan { get; set; }
         public int Soluong {  get; set; }
         public int ThanhTien { get; set; }
-        public ChiTietDonHang(int maCTDH, int maDH, int maVL, int giaBan, int soLuong)
+        public ChiTietDonHang(int maCTDH, int maDH, int maVL, string tenVL, int giaBan, int soLuong)
         {
             this.MaCTDH =maCTDH;
             this.MaDH =maDH;
             this.MaVL =maVL;
+            this.TenVL =tenVL;
             this.GiaBan =giaBan;    
             this.Soluong =soLuong;
+            this.ThanhTien = giaBan * soLuong;
+        }
+        public ChiTietDonHang(int maCTDH, int maDH, int maVL,  int giaBan, int soLuong)
+        {
+            this.MaCTDH = maCTDH;
+            this.MaDH = maDH;
+            this.MaVL = maVL;
+            this.GiaBan = giaBan;
+            this.Soluong = soLuong;
+            this.ThanhTien = giaBan * soLuong;
+        }
+        public ChiTietDonHang(int maDH, int maVL,string tenVL, int giaBan, int soLuong)
+        {
+            this.MaDH = maDH;
+            this.MaVL = maVL;
+            this.TenVL = tenVL;
+            this.GiaBan = giaBan;
+            this.Soluong = soLuong;
             this.ThanhTien = giaBan * soLuong;
         }
         public ChiTietDonHang(int maDH, int maVL, int giaBan, int soLuong)
@@ -31,6 +51,7 @@ namespace DTO
             this.Soluong = soLuong;
             this.ThanhTien = giaBan * soLuong;
         }
+
 
     }
 }

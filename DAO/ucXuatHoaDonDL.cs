@@ -32,7 +32,7 @@ namespace DTO
                     ngayLap = reader[3].ToString();
                     tongTien = Int32.Parse(reader[4].ToString());
                     trangThaiDonHang = reader[5].ToString();
-                    HoaDonKH hoaDon = new HoaDonKH(maHD, maDH, maKH, ngayLap, tongTien, trangThaiDonHang);
+                    HoaDonKH hoaDon = new HoaDonKH(maHD, maDH, maKH, DateTime.Parse(ngayLap), tongTien, trangThaiDonHang);
                     hoaDonKH.Add(hoaDon);
                 }
                 reader.Close();
@@ -105,7 +105,7 @@ namespace DTO
                     ngayLap = reader[3].ToString();
                     tongTien = Int32.Parse(reader[4].ToString());
                     trangThaiDonHang = reader[5].ToString();
-                    HoaDonKH hoaDon = new HoaDonKH(maHD,maDH, maKH1, ngayLap, tongTien, trangThaiDonHang);
+                    HoaDonKH hoaDon = new HoaDonKH(maHD,maDH, maKH1, DateTime.Parse(ngayLap), tongTien, trangThaiDonHang);
                     hoaDonKH.Add(hoaDon);
                 }
                 reader.Close();
@@ -140,7 +140,7 @@ namespace DTO
                     ngayLap = reader[3].ToString();
                     tongTien = Int32.Parse(reader[4].ToString());
                     trangThaiDonHang = reader[5].ToString();
-                    HoaDonKH hoaDon = new HoaDonKH(maHD, maDH, maKH1, ngayLap, tongTien, trangThaiDonHang);
+                    HoaDonKH hoaDon = new HoaDonKH(maHD, maDH, maKH1, DateTime.Parse(ngayLap), tongTien, trangThaiDonHang);
                     hoaDonKH.Add(hoaDon);
                 }
                 reader.Close();

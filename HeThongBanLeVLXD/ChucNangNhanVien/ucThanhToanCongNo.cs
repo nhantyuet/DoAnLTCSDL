@@ -86,7 +86,7 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
             }
             else 
             {
-                LichSuCongNo lichSuCongNo = new LichSuCongNo(Int32.Parse(uc_ThanhToanCongNoBL.getMaKHBL(tbSdtKh.Text)), Int32.Parse(uc_ThanhToanCongNoBL.getMaNVBL(lbTenNhanVien.Text)), Int32.Parse(tbTienDua.Text) * (-1), dateTimePicker1.Text);
+                LichSuCongNo lichSuCongNo = new LichSuCongNo(Int32.Parse(uc_ThanhToanCongNoBL.getMaKHBL(tbSdtKh.Text)), Int32.Parse(uc_ThanhToanCongNoBL.getMaNVBL(lbTenNhanVien.Text)), Int32.Parse(tbTienDua.Text) * (-1),dateTimePicker1.Value);
                 uc_ThanhToanCongNoBL.InsertLichSuCongNoBL(lichSuCongNo);
                 uc_ThanhToanCongNoBL.UpdateCongNoKhachHangBL(tbSdtKh.Text, Int32.Parse(tbTienDua.Text));
                 MessageBox.Show("Thực hiện thanh toán thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

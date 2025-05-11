@@ -44,6 +44,18 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Xceed.Document.NET, Version=1.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>packages\DocX.1.7.0\lib\net40\Xceed.Document.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Drawing.NET, Version=1.0.25228.6154, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL">
+      <HintPath>packages\Xceed.Drawing.NET.1.0.25228.6154\lib\net40\Xceed.Drawing.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Pdf, Version=5.0.25228.6154, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL">
+      <HintPath>packages\Xceed.Pdf.5.0.25228.6154\lib\net40\Xceed.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Words.NET, Version=1.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>packages\DocX.1.7.0\lib\net40\Xceed.Words.NET.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChucNangNhanVien\ucBanLe.cs">
@@ -135,6 +147,9 @@
     <EmbeddedResource Include="ChucNangNhanVien\ucXuatHoaDon.resx">
       <DependentUpon>ucXuatHoaDon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChucNangQuanLy\ucBieuDoDoanhThu.resx">
+      <DependentUpon>ucBieuDoDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChucNangQuanLy\ucQLyNguoiDung.resx">
       <DependentUpon>ucQLyNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,7 +170,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -178,6 +195,9 @@
       <Project>{13261c09-801b-4bdb-af80-27074c546dfd}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KinhLup.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

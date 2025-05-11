@@ -3,41 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DAO\\DAO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dao\\frmgiaodienchinhdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\hethongbanlevlxd\\chucnangnhanvien\\ucthanhtoancongno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucthanhtoancongno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDBE424-894F-49A2-9ED9-F65CEAA36FD4}|..\\BUS\\BUS.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\bus\\ucbieudodoanhthubl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\hethongbanlevlxd\\chucnangnhanvien\\ucthanhtoancongno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucthanhtoancongno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DAO\\DAO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dao\\ucthanhtoancongnodl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DAO\\DAO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dao\\ucbieudodoanhthudl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\frmgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:frmgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\frmgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:frmgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\chucnangquanly\\ucbieudodoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangquanly\\ucbieudodoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDBE424-894F-49A2-9ED9-F65CEAA36FD4}|..\\BUS\\BUS.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\bus\\ucthanhtoancongnobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\hethongbanlevlxd\\chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DAO\\DAO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dao\\ucxuathoadondl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\hethongbanlevlxd\\chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\chucnangquanly\\ucbieudodoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangquanly\\ucbieudodoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDBE424-894F-49A2-9ED9-F65CEAA36FD4}|..\\BUS\\BUS.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\bus\\ucxuathoadonbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DAO\\DAO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dao\\ucthanhtoancongnodl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\chucnangnhanvien\\ucxuathoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucxuathoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\chucnangnhanvien\\ucxuathoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucxuathoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDBE424-894F-49A2-9ED9-F65CEAA36FD4}|..\\BUS\\BUS.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\bus\\ucbanlebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DAO\\DAO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dao\\ucbanledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucbanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\chucnangnhanvien\\ucthanhtoancongno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucthanhtoancongno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DAO\\DAO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dao\\logindl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DAO\\DAO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\vatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\tonkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\lichsucongno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DAO\\DAO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dao\\frmnhanviendl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\hoadonkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13261C09-801B-4BDB-AF80-27074C546DFD}|..\\DTO\\DTO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC0E9A6-D67C-4F88-AA2C-37FF14E1A8EC}|..\\DAO\\DAO.csproj|c:\\users\\pc\\desktop\\hk2 nam 3\\doanltcsdl\\dao\\frmgiaodienchinhdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\chucnangnhanvien\\ucthanhtoancongno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3132A23-1165-43D0-964F-4A4DADCA770B}|HeThongBanLeVLXD.csproj|solutionrelative:chucnangnhanvien\\ucthanhtoancongno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,8 +134,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ucBanLe.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs",
+              "RelativeDocumentMoniker": "ChucNangNhanVien\\ucBanLe.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs",
+              "RelativeToolTip": "ChucNangNhanVien\\ucBanLe.cs",
+              "ViewState": "AQIAADMBAAAAAAAAAAAAAIUBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:28:05.804Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -59,7 +159,411 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ucBieuDoDoanhThu.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangQuanLy\\ucBieuDoDoanhThu.cs",
+              "RelativeDocumentMoniker": "ChucNangQuanLy\\ucBieuDoDoanhThu.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangQuanLy\\ucBieuDoDoanhThu.cs",
+              "RelativeToolTip": "ChucNangQuanLy\\ucBieuDoDoanhThu.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowBgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:43:23.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmNhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmNhanVien.cs",
+              "RelativeDocumentMoniker": "FrmNhanVien.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmNhanVien.cs [Design]",
+              "RelativeToolTip": "FrmNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:23:51.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmNhanVien.cs",
+              "RelativeDocumentMoniker": "FrmNhanVien.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmNhanVien.cs",
+              "RelativeToolTip": "FrmNhanVien.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:23:53.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ucBieuDoDoanhThuBL.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucBieuDoDoanhThuBL.cs",
+              "RelativeDocumentMoniker": "..\\BUS\\ucBieuDoDoanhThuBL.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucBieuDoDoanhThuBL.cs",
+              "RelativeToolTip": "..\\BUS\\ucBieuDoDoanhThuBL.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:27:02.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ucBieuDoDoanhThuDL.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucBieuDoDoanhThuDL.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\ucBieuDoDoanhThuDL.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucBieuDoDoanhThuDL.cs",
+              "RelativeToolTip": "..\\DAO\\ucBieuDoDoanhThuDL.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:27:37.3Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\DonHang.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\DonHang.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\DonHang.cs",
+              "RelativeToolTip": "..\\DTO\\DonHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:53:14.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "FrmLogin.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmLogin.cs [Design]",
+              "RelativeToolTip": "FrmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:49:07.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmGiaoDienChinh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmGiaoDienChinh.cs",
+              "RelativeDocumentMoniker": "FrmGiaoDienChinh.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmGiaoDienChinh.cs [Design]",
+              "RelativeToolTip": "FrmGiaoDienChinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:46:19.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmGiaoDienChinh.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmGiaoDienChinh.cs",
+              "RelativeDocumentMoniker": "FrmGiaoDienChinh.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\FrmGiaoDienChinh.cs",
+              "RelativeToolTip": "FrmGiaoDienChinh.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwDsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:46:23.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ucThanhToanCongNoBL.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucThanhToanCongNoBL.cs",
+              "RelativeDocumentMoniker": "..\\BUS\\ucThanhToanCongNoBL.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucThanhToanCongNoBL.cs",
+              "RelativeToolTip": "..\\BUS\\ucThanhToanCongNoBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:36:58.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ucBieuDoDoanhThu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangQuanLy\\ucBieuDoDoanhThu.cs",
+              "RelativeDocumentMoniker": "ChucNangQuanLy\\ucBieuDoDoanhThu.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangQuanLy\\ucBieuDoDoanhThu.cs [Design]",
+              "RelativeToolTip": "ChucNangQuanLy\\ucBieuDoDoanhThu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:43:17.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ucXuatHoaDonDL.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucXuatHoaDonDL.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\ucXuatHoaDonDL.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucXuatHoaDonDL.cs",
+              "RelativeToolTip": "..\\DAO\\ucXuatHoaDonDL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:31:29.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ucXuatHoaDonBL.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucXuatHoaDonBL.cs",
+              "RelativeDocumentMoniker": "..\\BUS\\ucXuatHoaDonBL.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucXuatHoaDonBL.cs",
+              "RelativeToolTip": "..\\BUS\\ucXuatHoaDonBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T09:32:55.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ucThanhToanCongNoDL.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucThanhToanCongNoDL.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\ucThanhToanCongNoDL.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucThanhToanCongNoDL.cs",
+              "RelativeToolTip": "..\\DAO\\ucThanhToanCongNoDL.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:31:16.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChiTietPhieuNhap.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\ChiTietPhieuNhap.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\ChiTietPhieuNhap.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\ChiTietPhieuNhap.cs",
+              "RelativeToolTip": "..\\DTO\\ChiTietPhieuNhap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:53:08.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ucXuatHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucXuatHoaDon.cs",
+              "RelativeDocumentMoniker": "ChucNangNhanVien\\ucXuatHoaDon.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucXuatHoaDon.cs [Design]",
+              "RelativeToolTip": "ChucNangNhanVien\\ucXuatHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T02:47:16.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ucXuatHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucXuatHoaDon.cs",
+              "RelativeDocumentMoniker": "ChucNangNhanVien\\ucXuatHoaDon.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucXuatHoaDon.cs",
+              "RelativeToolTip": "ChucNangNhanVien\\ucXuatHoaDon.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAAAKkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T09:22:22.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChiTietDonHang.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\ChiTietDonHang.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\ChiTietDonHang.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\ChiTietDonHang.cs",
+              "RelativeToolTip": "..\\DTO\\ChiTietDonHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T04:20:32.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ucBanLeBL.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucBanLeBL.cs",
+              "RelativeDocumentMoniker": "..\\BUS\\ucBanLeBL.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucBanLeBL.cs",
+              "RelativeToolTip": "..\\BUS\\ucBanLeBL.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAIAwwFIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:53:00.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ucBanLeDL.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucBanLeDL.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\ucBanLeDL.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucBanLeDL.cs",
+              "RelativeToolTip": "..\\DAO\\ucBanLeDL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:46:32.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ucBanLe.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs",
+              "RelativeDocumentMoniker": "ChucNangNhanVien\\ucBanLe.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs [Design]",
+              "RelativeToolTip": "ChucNangNhanVien\\ucBanLe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:41:45.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ucThanhToanCongNo.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucThanhToanCongNo.cs",
+              "RelativeDocumentMoniker": "ChucNangNhanVien\\ucThanhToanCongNo.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucThanhToanCongNo.cs",
+              "RelativeToolTip": "ChucNangNhanVien\\ucThanhToanCongNo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:38:43.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginDL.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\LoginDL.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\LoginDL.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\LoginDL.cs",
+              "RelativeToolTip": "..\\DAO\\LoginDL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:53:47.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\TaiKhoan.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\TaiKhoan.cs",
+              "RelativeToolTip": "..\\DTO\\TaiKhoan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:55:45.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LichSuCongNo.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\LichSuCongNo.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\LichSuCongNo.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\LichSuCongNo.cs",
+              "RelativeToolTip": "..\\DTO\\LichSuCongNo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:54:00.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\NhanVien.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\NhanVien.cs",
+              "RelativeToolTip": "..\\DTO\\NhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:54:14.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PhieuNhap.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\PhieuNhap.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\PhieuNhap.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\PhieuNhap.cs",
+              "RelativeToolTip": "..\\DTO\\PhieuNhap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:54:14.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\DataProvider.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\DataProvider.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\DataProvider.cs",
+              "RelativeToolTip": "..\\DAO\\DataProvider.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T09:00:31.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TonKho.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\TonKho.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\TonKho.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\TonKho.cs",
+              "RelativeToolTip": "..\\DTO\\TonKho.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:55:47.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VatLieu.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\VatLieu.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\VatLieu.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\VatLieu.cs",
+              "RelativeToolTip": "..\\DTO\\VatLieu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:55:48.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\KhachHang.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\KhachHang.cs",
+              "RelativeToolTip": "..\\DTO\\KhachHang.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:53:57.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\Class1.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\Class1.cs",
+              "RelativeToolTip": "..\\DTO\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:53:11.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\HoaDon.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\HoaDon.cs",
+              "RelativeToolTip": "..\\DTO\\HoaDon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:10:13.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HoaDonKH.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\HoaDonKH.cs",
+              "RelativeDocumentMoniker": "..\\DTO\\HoaDonKH.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\HoaDonKH.cs",
+              "RelativeToolTip": "..\\DTO\\HoaDonKH.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T03:47:53.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "FrmGiaoDienChinhDL.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\FrmGiaoDienChinhDL.cs",
               "RelativeDocumentMoniker": "..\\DAO\\FrmGiaoDienChinhDL.cs",
@@ -67,136 +571,18 @@
               "RelativeToolTip": "..\\DAO\\FrmGiaoDienChinhDL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:31:50.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T11:31:50.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\KhachHang.cs",
-              "RelativeDocumentMoniker": "..\\DTO\\KhachHang.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DTO\\KhachHang.cs",
-              "RelativeToolTip": "..\\DTO\\KhachHang.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAwwA8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:54:58.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FrmNhanVienDL.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\FrmNhanVienDL.cs",
-              "RelativeDocumentMoniker": "..\\DAO\\FrmNhanVienDL.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\FrmNhanVienDL.cs",
-              "RelativeToolTip": "..\\DAO\\FrmNhanVienDL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:29:57.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ucBanLeDL.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucBanLeDL.cs",
-              "RelativeDocumentMoniker": "..\\DAO\\ucBanLeDL.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucBanLeDL.cs",
-              "RelativeToolTip": "..\\DAO\\ucBanLeDL.cs",
-              "ViewState": "AQIAAOIAAAAAAAAAAAAAAAEBAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:46:32.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ucBanLeBL.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucBanLeBL.cs",
-              "RelativeDocumentMoniker": "..\\BUS\\ucBanLeBL.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucBanLeBL.cs",
-              "RelativeToolTip": "..\\BUS\\ucBanLeBL.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAQwGAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T09:53:00.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ucThanhToanCongNoDL.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucThanhToanCongNoDL.cs",
-              "RelativeDocumentMoniker": "..\\DAO\\ucThanhToanCongNoDL.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\DAO\\ucThanhToanCongNoDL.cs",
-              "RelativeToolTip": "..\\DAO\\ucThanhToanCongNoDL.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAuwD0AAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:46:01.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ucThanhToanCongNoBL.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucThanhToanCongNoBL.cs",
-              "RelativeDocumentMoniker": "..\\BUS\\ucThanhToanCongNoBL.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\BUS\\ucThanhToanCongNoBL.cs",
-              "RelativeToolTip": "..\\BUS\\ucThanhToanCongNoBL.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAuwDMAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:45:45.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ucBanLe.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs",
-              "RelativeDocumentMoniker": "ChucNangNhanVien\\ucBanLe.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs",
-              "RelativeToolTip": "ChucNangNhanVien\\ucBanLe.cs",
-              "ViewState": "AQIAAFABAAAAAAAAAAAAADYBAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:41:46.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ucBanLe.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs",
-              "RelativeDocumentMoniker": "ChucNangNhanVien\\ucBanLe.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucBanLe.cs [Design]",
-              "RelativeToolTip": "ChucNangNhanVien\\ucBanLe.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:41:45.228Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ucThanhToanCongNo.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucThanhToanCongNo.cs",
-              "RelativeDocumentMoniker": "ChucNangNhanVien\\ucThanhToanCongNo.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucThanhToanCongNo.cs",
-              "RelativeToolTip": "ChucNangNhanVien\\ucThanhToanCongNo.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAwFsAAACAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:38:43.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 36,
               "Title": "ucThanhToanCongNo.cs [Design]",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucThanhToanCongNo.cs",
               "RelativeDocumentMoniker": "ChucNangNhanVien\\ucThanhToanCongNo.cs",
               "ToolTip": "C:\\Users\\pc\\Desktop\\HK2 nam 3\\DoAnLTCSDL\\HeThongBanLeVLXD\\ChucNangNhanVien\\ucThanhToanCongNo.cs [Design]",
               "RelativeToolTip": "ChucNangNhanVien\\ucThanhToanCongNo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:38:41.338Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-01T20:38:41.338Z"
             }
           ]
         }

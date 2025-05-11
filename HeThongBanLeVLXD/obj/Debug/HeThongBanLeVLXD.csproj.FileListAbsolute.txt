@@ -86,3 +86,9 @@ C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLe
 C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangNhanVien.ucThanhToanCongNo.resources
 C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\DAO.dll
 C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\DAO.pdb
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\Xceed.Document.NET.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\Xceed.Drawing.NET.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\Xceed.Pdf.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\Xceed.Words.NET.dll
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\bin\Debug\Xceed.Drawing.NET.xml
+C:\Users\pc\Desktop\HK2 nam 3\DoAnLTCSDL\HeThongBanLeVLXD\obj\Debug\HeThongBanLeVLXD.ChucNangQuanLy.ucBieuDoDoanhThu.resources

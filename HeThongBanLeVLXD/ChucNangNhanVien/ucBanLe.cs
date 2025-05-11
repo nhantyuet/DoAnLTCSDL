@@ -62,32 +62,38 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
                 MessageBox.Show("Vui Long Nhap SDT_Khach_Hang", MessageBoxButtons.OK.ToString());
             }
             else
-            {
-                try
+            {          
+                KhachHang khachHang = uc_BanLeBL.timKiemKhachHangBL(tbSdtKh.Text.Trim()); //Gọi ở ucBanLeBL
+                if (khachHang.TenKH == null)
                 {
-                    KhachHang khachHang = uc_BanLeBL.timKiemKhachHangBL(tbSdtKh.Text.Trim()); //Gọi ở ucBanLeBL
+                    MessageBox.Show("Vui lòng nhập đầy đủ thông tin và số điện thoại phải gồm đúng 10 chữ số.", "Thông báo", MessageBoxButtons.OK);
+                }
+                else
+                {
                     tbTenKhachHang.Text = khachHang.TenKH;
                     tbDiaChi.Text = khachHang.DiaChi;
                 }
-                catch(SqlException ex) // chỗ này nó hơi vô lý ch test lại
-                {
-                    MessageBox.Show(ex.Message, "Không Tìm thấy khách hàng ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
-                
-               
             }
+        }
+        private bool IsValidPhoneNumber(string sdt)
+        {
+            return sdt.Length == 10 && sdt.All(char.IsDigit);
         }
 
         private void btThemKH_Click(object sender, EventArgs e)
         {
             KhachHang khachHang = new KhachHang();
             uc_BanLeBL = new ucBanLeBL();
-            if (tbDiaChi.Text == "" || tbTenKhachHang.Text == "" || tbSdtKh.Text == "")
+            int len = tbSdtKh.Text.Length;
+            if (string.IsNullOrWhiteSpace(tbTenKhachHang.Text) ||
+                    string.IsNullOrWhiteSpace(tbDiaChi.Text) ||
+                    !IsValidPhoneNumber(tbSdtKh.Text))
             {
-                MessageBox.Show("Vui Long Dien Day Du Du Lieu Neu Muon Them KH Moi Vao DB", "Thông báo", MessageBoxButtons.OK);
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin và số điện thoại phải gồm đúng 10 chữ số.", "Thông báo", MessageBoxButtons.OK);
                 tbTenKhachHang.Text = "";
                 tbDiaChi.Text = "";
                 tbSdtKh.Text = "";
+                return;
             }
             else
             {
@@ -298,7 +304,7 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
 
         private void button4_Click(object sender, EventArgs e)
            {
-               int tienThoi;
+               //int tienThoi;
                uc_BanLeBL = new ucBanLeBL();
                int len = lbTongTien.Text.Length;
                string tongTien = lbTongTien.Text;
@@ -309,8 +315,8 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
             }
             else if (int.Parse(lbTienThoi.Text) == 0) // là trả đủ tiền lun 
             {
-                DonHang donHang = new DonHang(Int32.Parse (uc_BanLeBL.getMaKHBL(tbSdtKh.Text.ToString())) , Int32.Parse(uc_BanLeBL.getMaNVBL(lbTenNhanVien.Text)), dateTimePicker1.Value.ToString(),
-               dateTimePicker2.Value.ToString(), tbDiaChi.Text, tbSdtKh.Text);
+                DonHang donHang = new DonHang(Int32.Parse (uc_BanLeBL.getMaKHBL(tbSdtKh.Text.ToString())) , Int32.Parse(uc_BanLeBL.getMaNVBL(lbTenNhanVien.Text)), dateTimePicker1.Value,
+               dateTimePicker2.Value, tbDiaChi.Text, tbSdtKh.Text);
                 int maDH = uc_BanLeBL.insertDonHangBL(donHang);
                 int tongTienHoaDon = 0;
 
@@ -326,11 +332,17 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
                         int slMua = int.Parse(row.Cells[3].Value.ToString());
                         tongTienHoaDon += giaBan * slMua; // chua can dung toi
                         ChiTietDonHang chiTietDonHang = new ChiTietDonHang(maDH,maVL, giaBan, slMua);
-                        uc_BanLeBL.ThemChiTietDonHangBL(chiTietDonHang);
+                        uc_BanLeBL.TonKhoBL(maVL, slMua);
+                        int maCTDH = uc_BanLeBL.ThemChiTietDonHangBL(chiTietDonHang);
                     }
-                    HoaDon hoaDon = new HoaDon(maDH, dateTimePicker1.Value.ToString(), tongTienHoaDon, "Da Thanh Toan");
+                    HoaDon hoaDon = new HoaDon(maDH, dateTimePicker1.Value, tongTienHoaDon, "Da Thanh Toan");
                     uc_BanLeBL.insertHoaDonBL(hoaDon);
-                    MessageBox.Show("Thêm chi tiết đơn hàng thành công!");
+                    MessageBox.Show("Thêm đơn hàng thành công!");
+                    LoadVatLieuTonKho();
+                    dataGridView2.Rows.Clear();
+                    tbSdtKh.Text = "";
+                    tbDiaChi.Text = "";
+                    tbTenKhachHang.Text = "";
 
                 }
                 else
@@ -340,8 +352,8 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
             }
             else
             {
-                DonHang donHang = new DonHang(Int32.Parse(uc_BanLeBL.getMaKHBL(tbSdtKh.Text.ToString())), Int32.Parse(uc_BanLeBL.getMaNVBL(lbTenNhanVien.Text)), dateTimePicker1.Value.ToString(),
-                    dateTimePicker2.Value.ToString(), tbDiaChi.Text, tbSdtKh.Text);
+                DonHang donHang = new DonHang(Int32.Parse(uc_BanLeBL.getMaKHBL(tbSdtKh.Text.ToString())), Int32.Parse(uc_BanLeBL.getMaNVBL(lbTenNhanVien.Text)), dateTimePicker1.Value,
+                    dateTimePicker2.Value, tbDiaChi.Text, tbSdtKh.Text);
                 int maDH = uc_BanLeBL.insertDonHangBL(donHang);
                 int tongTienHoaDon = 0;
                 if (maDH > -1)
@@ -358,12 +370,12 @@ namespace HeThongBanLeVLXD.ChucNangNhanVien
                         ChiTietDonHang chiTietDonHang = new ChiTietDonHang(maDH, maVL, giaBan, slMua);
                         uc_BanLeBL.ThemChiTietDonHangBL(chiTietDonHang);
                     }
-                    HoaDon hoaDon = new HoaDon(maDH, dateTimePicker1.Value.ToString(), tongTienHoaDon, "Chua Thanh Toan Day Du");
+                    HoaDon hoaDon = new HoaDon(maDH, dateTimePicker1.Value, tongTienHoaDon, "Chua Thanh Toan Day Du");
                     uc_BanLeBL.insertHoaDonBL(hoaDon);
                     Console.WriteLine(int.Parse(lbTienThoi.Text));
                     
                     uc_BanLeBL.ThemCongNoBL(tbSdtKh.Text.ToString(), int.Parse(lbTienThoi.Text));
-                    LichSuCongNo lichSuCongNo = new LichSuCongNo(int.Parse(uc_BanLeBL.getMaKHBL(tbSdtKh.Text.ToString())), int.Parse(uc_BanLeBL.getMaNVBL(lbTenNhanVien.Text)), int.Parse(lbTienThoi.Text), dateTimePicker1.Value.ToString());
+                    LichSuCongNo lichSuCongNo = new LichSuCongNo(int.Parse(uc_BanLeBL.getMaKHBL(tbSdtKh.Text.ToString())), int.Parse(uc_BanLeBL.getMaNVBL(lbTenNhanVien.Text)), int.Parse(lbTienThoi.Text), dateTimePicker1.Value);
                     uc_BanLeBL.ThemLichSuCongNoBL(lichSuCongNo);
                     MessageBox.Show("Thêm chi tiết đơn hàng thành công!");
                     this.Controls.Clear();

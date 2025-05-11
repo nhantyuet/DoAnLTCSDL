@@ -87,15 +87,42 @@ namespace DTO
                 throw ex;   
             }
         }
-
         public int insertDonHangDL(DonHang donHang)
         {
-            string sql = $"INSERT INTO[dbo].[DonHang]([MaKH],[MaNV],[NgayDatHang],[NgayGiaoHang],[DiaChi],[SoDienThoai]) " +
-                                $"VALUES({donHang.MaKH},{donHang.MaNV},'{donHang.NgayDatHang}','{donHang.NgayGiaoHang}','{donHang.DiaChi}','{donHang.SoDienThoai}');" +
+            try
+            {
+                Connect();
+                string sql = $"INSERT INTO[dbo].[DonHang]([MaKH],[MaNV],[NgayDatHang],[NgayGiaoHang],[DiaChi],[SoDienThoai]) " +
+                                "VALUES(@MaKH,@MaNV,@NgayDatHang,@NgayGiaoHang,@DiaChi,@SoDienThoai);" +
                                 "select SCOPE_IDENTITY();";
+                SqlCommand cmd = new SqlCommand(sql, cn);
+                cmd.Parameters.AddWithValue("@MaKH", donHang.MaKH);
+                cmd.Parameters.AddWithValue("@MaNV", donHang.MaNV);
+                cmd.Parameters.AddWithValue("@NgayDatHang", donHang.NgayDatHang);
+                cmd.Parameters.AddWithValue("@NgayGiaoHang", donHang.NgayGiaoHang);
+                cmd.Parameters.AddWithValue("@DiaChi", donHang.DiaChi);
+                cmd.Parameters.AddWithValue("@SoDienThoai", donHang.SoDienThoai);
+                return Int32.Parse(cmd.ExecuteScalar().ToString());
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                Disconnect();   
+            }
+        }
+        public int ThemChiTietDonHangDL(ChiTietDonHang chiTietDonHang)
+        {
+            
             
             try
             {
+                Connect();
+                string sql = $"INSERT INTO [dbo].[ChiTietDonHang]([MaDH],[MaVL],[GiaBan],[SoLuong])\r\n" +
+                $"VALUES({chiTietDonHang.MaDH},{chiTietDonHang.MaVL},{chiTietDonHang.GiaBan},{chiTietDonHang.Soluong})"+
+                "select SCOPE_IDENTITY();";
                 return Int32.Parse(MyExecuteScalar(sql, CommandType.Text).ToString());
             }
             catch (SqlException ex)
@@ -148,7 +175,19 @@ namespace DTO
 
         public int ThemCongNoDL(string SoDienThoai, int TienNo)
         {
-            string sql = $"Update KhachHang set CongNo = CongNo + '{TienNo}' where SoDienThoai = '{SoDienThoai}'";
+            string sql = $"Update KhachHang set CongNo = CongNo + {TienNo} where SoDienThoai = '{SoDienThoai}'";
+            try
+            {
+                return MyExecuteNonQuery(sql, CommandType.Text);
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }
+        public int TonKhoDL(int MaVL, int SoLuongBan)
+        {
+            string sql = $"Update TonKho set SoLuongTon = SoLuongTon - {SoLuongBan} where MaVL = '{MaVL}'";
             try
             {
                 return MyExecuteNonQuery(sql, CommandType.Text);
@@ -171,19 +210,7 @@ namespace DTO
                 throw ex;
             }
         }
-        public int ThemChiTietDonHangDL(ChiTietDonHang chiTietDonHang)
-        {
-            string sql = $"INSERT INTO [dbo].[ChiTietDonHang]([MaDH],[MaVL],[GiaBan],[SoLuong])\r\n" +
-                $"VALUES({chiTietDonHang.MaDH},{chiTietDonHang.MaVL},{chiTietDonHang.GiaBan},{chiTietDonHang.Soluong})";
-            try
-            {
-                return MyExecuteNonQuery(sql, CommandType.Text);
-            }
-            catch (SqlException ex)
-            {
-                throw ex;
-            }
-        }
+        
 
         public int insertThemLichSuCongNoDL(string SoDienThoai, int TienNo)
         {

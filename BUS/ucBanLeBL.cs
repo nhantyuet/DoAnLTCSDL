@@ -158,6 +158,22 @@ namespace BUS
                 throw ex;
             }
         }
+        public int TonKhoBL(int MaVL, int SoLuongBan)
+        {
+            try
+            {
+                int result = uc_BanLeDL.TonKhoDL(MaVL, SoLuongBan);
+                if (result < 1)
+                {
+                    throw new Exception("Dữ liệu không được thêm vào Database");
+                }
+                return result;
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }
         public int ThemLichSuCongNoBL(LichSuCongNo lichSuCongNo)
         {
             try

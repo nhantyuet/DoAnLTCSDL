@@ -53,6 +53,12 @@ namespace HeThongBanLeVLXD
             }
         }
 
- 
+        private void btnBieuDoDT_Click(object sender, EventArgs e)
+        {
+            ChucNangQuanLy.ucBieuDoDoanhThu ucBieuDoDoanhThu = new ChucNangQuanLy.ucBieuDoDoanhThu();
+            panel2.Controls.Clear();
+            panel2.Controls.Add(ucBieuDoDoanhThu);
+            ucBieuDoDoanhThu.Show();
+        }
     }
 }
